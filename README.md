@@ -19,15 +19,19 @@
 
 ## Examples
 
-**Mean Calculation**
+### Mean Calculation
+
+```noir
 let numbers: [u64; 5] = [1, 2, 3, 4, 5];
 let average = mean(numbers);
 assert(average == 3);
+
 
 **Median Calculation**
 let numbers: [Field; 5] = [1, 2, 3, 4, 5];
 let median_value = median(numbers);
 assert(median_value == 3);
+
 
 Advanced Examples
 **Linear Regression**
