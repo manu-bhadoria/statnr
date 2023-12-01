@@ -17,30 +17,30 @@
 - **Utilities**: Functions for sorting data, finding minimum and maximum values, etc.
 
 
-## Examples
+### Examples
 
-### Mean Calculation
+
 
 ```noir
+//Mean Calculation
 let numbers: [u64; 5] = [1, 2, 3, 4, 5];
 let average = mean(numbers);
 assert(average == 3);
 
 
-**Median Calculation**
+//Median Calculation
 let numbers: [Field; 5] = [1, 2, 3, 4, 5];
 let median_value = median(numbers);
 assert(median_value == 3);
 
 
-Advanced Examples
-**Linear Regression**
+//Linear Regression
 
 let data: [(u64, u64); 10] = [(1, 2), (2, 4), (3, 6), (4, 8), (5, 10), (6, 12), (7, 14), (8, 16), (9, 18), (10, 20)];
 let (slope, intercept) = linear_regression(data);
 assert(slope == 2);
 assert(intercept == 0);
-
+```
 ## Testing
 
 Each function is accompanied by a suite of tests to ensure correctness and robustness. Run the tests using Noir's built-in testing framework to validate functionality.
