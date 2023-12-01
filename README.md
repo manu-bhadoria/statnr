@@ -40,6 +40,30 @@ let data: [(u64, u64); 10] = [(1, 2), (2, 4), (3, 6), (4, 8), (5, 10), (6, 12), 
 let (slope, intercept) = linear_regression(data);
 assert(slope == 2);
 assert(intercept == 0);
+
+//Generate a range of float numbers    
+let start = Float { sign: 0, mantissa: 10000, exponent: 100 };
+let end = Float { sign: 0, mantissa: 60000, exponent: 100 };
+let step = Float { sign: 0, mantissa: 10000, exponent: 100 };
+
+let result = generate_range_floats(start, end, step);
+let expected = [
+    Float { sign: 0, mantissa: 10000, exponent: 100 },
+    Float { sign: 0, mantissa: 20000, exponent: 100 },
+    Float { sign: 0, mantissa: 30000, exponent: 100 },
+    Float { sign: 0, mantissa: 40000, exponent: 100 },
+    Float { sign: 0, mantissa: 50000, exponent: 100 },
+    Float { sign: 0, mantissa: 0, exponent: 0 },
+    Float { sign: 0, mantissa: 0, exponent: 0 }, 
+    Float { sign: 0, mantissa: 0, exponent: 0 },
+    Float { sign: 0, mantissa: 0, exponent: 0 },
+    Float { sign: 0, mantissa: 0, exponent: 0 },
+];
+
+for i in 0..10 {
+    assert(are_floats_equal(result[i], expected[i]));
+}
+
 ```
 ## Testing
 
