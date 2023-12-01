@@ -1,0 +1,8 @@
+[package]
+name = "statistical_lib_noir"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.19.2"
+
+[dependencies]
+float = { path = "src/Floats" }
