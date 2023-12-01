@@ -4,7 +4,7 @@
 
 **Noir Statistical Library** is a comprehensive library for statistical computations in the Noir language. It includes functions for basic statistical measures such as mean, median, mode, and range, as well as advanced computations like linear regression, logistic regression, and interquartile range. The library supports operations on both integer (`u64`) and custom floating-point (`Float`) types.
 
-## statnr's Relevance in Zero-Knowledge Proofs (ZKP)
+## statnr's relevance in Zero-Knowledge Proofs (ZKP)
 ZKP applications often require complex mathematical computations to ensure data privacy while proving the veracity of the information. Here, statnr's extensive suite of statistical functions will be helpful.
 
 ## Features
