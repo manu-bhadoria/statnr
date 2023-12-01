@@ -13,6 +13,7 @@ ZKP applications often require complex mathematical computations to ensure data 
 - **Median Calculation**: Determine the middle value in a sorted array of integers or floats.
 - **Mode Calculation**: Find the most frequent value in an array.
 - **Range Calculation**: Compute the difference between the maximum and minimum values in an array.
+- **Generate a range of integer or float numbers**: Generate a range of numbers using various parameters.
 - **Standard Deviation and Variance**: Calculate the spread of a dataset.
 - **Quartile Computations**: Determine Q1, Q2, and Q3 values for a dataset.
 - **Linear Regression**: Perform simple linear regression analysis.
