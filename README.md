@@ -1,3 +1,4 @@
+![Statnr Image](statnr.png)
 # Noir Statistical Library (statnr)
 
 ## Description
